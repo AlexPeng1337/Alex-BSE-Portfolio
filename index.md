@@ -1,5 +1,5 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Voice Controlled Bike Turn Light
+My project alerts drivers behind bikers if the biker is going left or right using a voice activated light mechanism. This upgrades bike safety and improves signaling on the road. The project's goal is to use a machine learning algorithm to teach a microcontroller to comprehend the words "left" and "right", and to react accordingly by turning on the corresponding light.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -7,7 +7,7 @@ You should comment out all portions of your portfolio that you have not complete
 <!--- Anything between these symbols will not render on the published site -->
 ```
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
+| Alex P | Henry M Gunn High School | AI/ML | Rising Sophomore  |
 |:--:|:--:|:--:|:--:|
 | FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
 
