@@ -1,5 +1,6 @@
-# Voice Controlled Bike Turn Light
-My project alerts drivers behind bikers if the biker is going left or right using a voice activated light mechanism. This upgrades bike safety and improves signaling on the road. The project's goal is to use a machine learning algorithm to teach a microcontroller to comprehend the words "left" and "right", and to react accordingly by turning on the corresponding light.
+# Voice Assistant with AI
+
+My project can naturally speak with humans and comprehend their requests by sending it to ChatGPT and speaking the response aloud. Using Rasberry Pi, this voice assistant can help with a variety of tasks including with home appliances. A modification that can be added to this project is enabling bikers to say "left" or "right" where the robot will turn on a corresponding light to alert drivers behind them which way they are turning.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -52,6 +53,12 @@ For your first milestone, describe what your project is and how you plan to buil
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
+
+# Starter project
+
+In my starter project, I created a Calculator which can solve basic arithmetic expressions by using an integrated circuit. Challenges that ocurred during the making of this project were soldering the wrong part. This led me to spending significantly more time desoldering and resoldering.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KVOnv4-s2qQ?si=DQyoTVDBob2fWpel" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
