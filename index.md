@@ -10,7 +10,7 @@ My project can naturally speak with humans and comprehend their requests by send
 
 | Alex P | Henry M Gunn High School | AI/ML | Rising Sophomore  |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
