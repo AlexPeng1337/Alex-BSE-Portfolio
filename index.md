@@ -4,8 +4,7 @@ My project can naturally speak with humans and comprehend their requests by send
 
 <!---You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:-->
 ```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
+
 ```
 
 | Alex P | Henry M Gunn High School | AI/ML | Rising Sophomore  |
