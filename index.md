@@ -1,6 +1,6 @@
 # Voice Assistant with AI
 
-My project can naturally speak with humans and comprehend their requests by sending it to ChatGPT and speaking the response aloud. Using Rasberry Pi, this voice assistant can help with a variety of tasks including with home appliances. A modification that can be added to this project is enabling bikers to say "left" or "right" where the robot will turn on a corresponding light to alert drivers behind them which way they are turning.
+My project can naturally speak with humans and comprehend their requests by sending it to ChatGPT and speaking the response aloud. Using Rasberry Pi, this voice assistant can help with a variety of tasks which the user can ask. A modification that can be added to this project is enabling bikers to say "left" or "right" where the robot will turn on a corresponding light to alert drivers behind them which way they are turning.
 
 | Alex P | Henry M Gunn High School | AI/ML | Rising Sophomore
 
@@ -49,7 +49,9 @@ For your first milestone, describe what your project is and how you plan to buil
 
 # Starter project
 
-In my starter project, I created a Calculator which can solve basic arithmetic expressions by using an integrated circuit. Challenges that ocurred during the making of this project were soldering the wrong part. This led me to spending significantly more time desoldering and resoldering.
+In my starter project, I created a Calculator which can solve basic arithmetic expressions by using an integrated circuit. Moreover, there is also a mode where the resisitor's resistance value will be displayed when given an input of a sequence of colors. I chose this project due to the practical use of a calculator in everyday life as well as the project's involvement with soldering, which is very important for many hardware projects.
+
+A challenge that ocurred during the making of this project was soldering the wrong part. This led me to spending significantly more time desoldering and resoldering. Accidentally soldering parts also caused the top row of the LED display to malfunction and stop displaying.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KVOnv4-s2qQ?si=DQyoTVDBob2fWpel" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
