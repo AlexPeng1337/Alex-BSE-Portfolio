@@ -7,10 +7,6 @@ My project can naturally speak with humans and comprehend their requests by send
 |:--:|:--:|:--:|:--:|
 | Alex P | Henry M Gunn High School | AI/ML | Rising Sophomore
 
-img {
-  width: 100%;
-  height: auto;
-}
 <img src="BSE-Alex-headshot.jpg" width="443" height="593">
 
 
