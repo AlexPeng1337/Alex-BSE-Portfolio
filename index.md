@@ -2,14 +2,16 @@
 
 My project can naturally speak with humans and comprehend their requests by sending it to ChatGPT and speaking the response aloud. Using Rasberry Pi, this voice assistant can help with a variety of tasks which the user can ask. A modification that can be added to this project is enabling bikers to say "left" or "right" where the robot will turn on a corresponding light to alert drivers behind them which way they are turning.
 
+
 | **Name** | **School** | **Area of Interest** | **Grade** |
+|:--:|:--:|:--:|:--:|
 | Alex P | Henry M Gunn High School | AI/ML | Rising Sophomore
 
 img {
   width: 100%;
   height: auto;
 }
-<img src="BSE-Alex-headshot.jpg" width="460" height="345">
+<img src="BSE-Alex-headshot.jpg" width="443" height="593">
 
 
 
