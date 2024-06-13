@@ -4,9 +4,7 @@ My project can naturally speak with humans and comprehend their requests by send
 
 | Alex P | Henry M Gunn High School | AI/ML | Rising Sophomore
 
-![Headshot Image](BSE-Alex-headshot.jpg)
-
-img {
+![Headshot Image](BSE-Alex-headshot.jpg) {
   width: 25%;
   height: 25%
 }
