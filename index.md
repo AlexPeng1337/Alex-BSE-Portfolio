@@ -1,13 +1,18 @@
+<style>
+img {
+  width: 50%;
+  height: auto;
+}
+  
 # Voice Assistant with AI
 
 My project can naturally speak with humans and comprehend their requests by sending it to ChatGPT and speaking the response aloud. Using Rasberry Pi, this voice assistant can help with a variety of tasks which the user can ask. A modification that can be added to this project is enabling bikers to say "left" or "right" where the robot will turn on a corresponding light to alert drivers behind them which way they are turning.
 
+| **Name** | **School** | **Area of Interest** | **Grade** |
 | Alex P | Henry M Gunn High School | AI/ML | Rising Sophomore
 
-![Headshot Image](BSE-Alex-headshot.jpg) {
-  width: 25%;
-  height: auto;
-}
+![Headshot Image](BSE-Alex-headshot.jpg) 
+
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
