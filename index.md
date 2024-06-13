@@ -7,8 +7,8 @@ My project can naturally speak with humans and comprehend their requests by send
 ![Headshot Image](BSE-Alex-headshot.jpg)
 
 img {
-  width: 50%;
-  height: 50%
+  width: 25%;
+  height: 25%
 }
 
 <!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
