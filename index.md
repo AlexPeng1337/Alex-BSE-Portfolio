@@ -56,10 +56,13 @@ For your first milestone, describe what your project is and how you plan to buil
 
 # Starter project
 
+## Description
 In my starter project, I created a Calculator which can solve basic arithmetic expressions by using an integrated circuit. Moreover, there is also a mode where the resisitor's resistance value will be displayed when given an input of a sequence of colors. I chose this project due to the practical use of a calculator in everyday life as well as the project's involvement with soldering, which is very important for many hardware projects.
 
+## Challenges
 A challenge that ocurred during the making of this project was soldering the wrong part. This led me to spending significantly more time desoldering and resoldering. Accidentally soldering parts also caused the top row of the LED display to malfunction and stop displaying.
 
+## List of Materials
 Here is the list of materials I used for my starter project:
 
 | **Part** | **Note**
