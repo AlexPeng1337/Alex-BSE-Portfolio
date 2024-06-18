@@ -56,6 +56,8 @@ For your first milestone, describe what your project is and how you plan to buil
 
 # Starter project
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KVOnv4-s2qQ?si=DQyoTVDBob2fWpel" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Description
 In my starter project, I created a Calculator which can solve basic arithmetic expressions by using an integrated circuit. Moreover, there is also a mode where the resisitor's resistance value will be displayed when given an input of a sequence of colors. I chose this project due to the practical use of a calculator in everyday life as well as the project's involvement with soldering, which is very important for many hardware projects.
 
@@ -65,15 +67,13 @@ A challenge that ocurred during the making of this project was soldering the wro
 ## List of Materials
 Here is the list of materials I used for my starter project:
 
-| **Part** | **Note**
-|:--:|:--:|
-| DIP-28 IC Socket | The integrated circuit is the device that calculates the arithmetic expressions. |
-| LED display | This item displays the input and the output. |
-| Micro USB Socket | This is where the USB charger goes in, to power the calculator |
-| CR2032 battery | The battery is another way to power the calculator. |
-| Acrylic plates | These plates surround the calculator, protecting the board and the wires. |
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KVOnv4-s2qQ?si=DQyoTVDBob2fWpel" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+| **Part** | **Note** | **Price**
+|:--:|:--:|:--:|
+| DIP-28 IC Socket | The integrated circuit is the device that calculates the arithmetic expressions. | $9.49
+| LED display | This item displays the input and the output. | $7.69
+| Micro USB Socket | This is where the USB charger goes in, to power the calculator | $9.99
+| CR2032 battery | The battery is another way to power the calculator. | $5.69
+| Acrylic plates | These plates surround the calculator, protecting the board and the wires. | $4.99
 
 <!---# Schematics-->
 <!---Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
