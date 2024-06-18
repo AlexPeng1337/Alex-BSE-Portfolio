@@ -62,8 +62,8 @@ A challenge that ocurred during the making of this project was soldering the wro
 
 Here is the list of materials I used for my starter project:
 
-| **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
+| **Part** | **Note**
+|:--:|:--:|
 | DIP-28 IC Socket | The integrated circuit is the device that calculates the arithmetic expressions. |
 | LED display | This item displays the input and the output. |
 | Micro USB Socket | This is where the USB charger goes in, to power the calculator |
