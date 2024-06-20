@@ -42,17 +42,19 @@ For your second milestone, explain what you've worked on since your previous mil
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone -->
 
-<!---# First Milestone-->
+# First Milestone
 
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KPPbzZ2AoVM?si=vwx5OK1yuR2AlYvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
+<!---**For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project-->
+- What your plan is to complete your project**-->
+
+My project is the Voice Assistant with AI. The first step is to insert the SD card in my Raspberry Pi, which will serve as the basic storage system for my robot. I plan to build this through using OBS to connect my Raspberry Pi to my computer and then inserting my code there in the terminal. So far, I have successfully managed to do this and have been able to edit in the terminal. Challenges that occurred was connecting the Raspberry Pi to OBS. The debugging process is selecting Video Capture Device and then selecting USB Video. The next step is installing the dependencies and changing the default mode for audio devices so that the robot may recognize human voice and then convert it to text. Then it will send the prompt to ChatGPT and speak out the response.
 
 # Starter project
 
