@@ -57,7 +57,7 @@ For your second milestone, explain what you've worked on since your previous mil
 ## Description
 My project is the Voice Assistant with AI. The first step is to insert the SD card in my Raspberry Pi, which will serve as the basic storage system for my robot. I plan to build this through using OBS to connect my Raspberry Pi to my computer and then inserting my code there in the terminal. So far, I have successfully managed to do this and have been able to edit in the terminal. The next step is installing the dependencies and changing the default mode for audio devices so that the robot may recognize human voice and then convert it to text. Then it will send the prompt to ChatGPT and speak out the response.
 
-
+## Challenges
 Challenges that occurred was connecting the Raspberry Pi to OBS. The result is a black screen displayed on OBS. The debugging process is selecting the "+" sign, selecting Video Capture Device, and then selecting USB Video.
 
 # Starter project
