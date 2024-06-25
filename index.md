@@ -29,18 +29,23 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you hope to learn in the future after everything you've learned at BSE-->
 
 
+# Second Milestone
 
-<!---# Second Milestone-->
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jt88gU1Xxh8?si=skl07EsoL68rqDc2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+<!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone -->
+- What needs to be completed before your final milestone-->
+
+## Description
+In this milestone, my accomplishment is installing the dependencies required for the Raspberry Pi to convert speech to text as well as sending the prompt back to OpenAI's ChatGPT in a virtual enviornment. I also changed the default mode for audio devices by changing the card number in the default configuration. The next thing that needs to be completed before my final milestone is to code and execute the python script which will then activate the robot to listen for any prompts. Then it will send it back to ChatGPT and speak out loud a reponse.
+
+## Challenges
+Challenges that occurred was downloading the dependencies that involved "pip". This was because I did not install previous lines of code resulting in an error whenever I tried downloading those dependencies. Another challenge was making sure that I download the dependencies in the right folder, or the python script would not work later.
 
 # First Milestone
 
