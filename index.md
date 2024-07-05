@@ -16,17 +16,127 @@ My project can naturally speak with humans and comprehend their requests by send
 
 ![Headstone Image](logo.svg)-->
   
-<!---# Final Milestone-->
+# Final Milestone
 
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-ffhlgsmoc?si=eDM4dhBXzh9Ra5ae" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your final milestone, explain the outcome of your project. Key details to include are:
+<!---For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE-->
+
+## Description
+In this milestone, my accomplishments was making the voice assistant work. Now, when I speak a prompt, the Raspberry Pi will recognize the voice and convert the speech to text. Then, it will send the prompt to OpenAI's ChatGPT. There, ChatGPT will generate a resposne and the Raspberry Pi will speak out the response for me. 
+
+
+## Challenges
+The biggest challenges at BSE included learning about wires and resistors for turning on and off the light. Other challenges included debugging and finding the root causes of errors such as skipping lines of code and selecting the wrong speaker.
+
+## Summary
+I learned about many key topics in this camp, including AI and electrical engineering. I learned about using OpenAI's developer platform to connect with ChatGPT in my project. I also learned about wires and resistors and how turn on a LED light using them. Moreover, I learned about PCBs, terminal lines, and basic CAD/3d printing techniques. In the future, I hope to dive deeper into the AI field and meaningfully apply its power in practical ways.
+
+
+## Bill of Materials
+Here is the list of materials I used for my starter project:
+
+| **Part** | **Note** | **Price**
+|:--:|:--:|:--:|
+| Raspberry Pi 4 | The Raspberry Pi 4 is the main operating system for my project. | $61.61
+| 4K Video Capture Card | This item displays the Raspberry Pi operating system on my computer. | $15.99
+| Canakit Piswitch USB-C | This item connects the Raspberry Pi to my computer. | $12.99
+| USB Mini Speaker Computer Speaker | This is the speaker that speaks out the response. | $12.99
+| USB 2.0 Mini Microphones | This is the microphone which I speak to. | $8.99
+| Basics USB Wired Computer Keyboard (QWERTY) and Mouse Bundle Pack | This includes the keyboard and mouse which I use on the Raspberry Pi screen. | $14.54
+
+
+# Code
+<!---Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+
+```python
+import lgpio
+import speech_recognition as sr
+import pyttsx3
+import openai
+
+# Initializing pyttsx3
+listening = True
+engine = pyttsx3.init()
+
+# Set your openai api key and customize the chatgpt role
+openai.api_key = "ABC"
+messages = [{"role": "system", "content": "Your name is Tom and give answers in 2 lines"}]
+
+# Customizing the output voice
+voices = engine.getProperty('voices')
+rate = engine.getProperty('rate')
+volume = engine.getProperty('volume')
+
+# Define the GPIO pin number for the relay
+RELAY_GPIO_PIN = 18
+
+# Initialize the GPIO
+h = lgpio.gpiochip_open(4)
+
+# Set up GPIO pin as output for the relay
+lgpio.gpio_claim_output(h, RELAY_GPIO_PIN)
+
+def get_response(user_input):
+    messages.append({"role": "user", "content": user_input})
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=messages
+    )
+    ChatGPT_reply = response["choices"][0]["message"]["content"]
+    messages.append({"role": "assistant", "content": ChatGPT_reply})
+    return ChatGPT_reply
+
+def turn_on_light():
+    lgpio.gpio_write(h, RELAY_GPIO_PIN, 1)
+    print("Light turned ON")
+
+def turn_off_light():
+    lgpio.gpio_write(h, RELAY_GPIO_PIN, 0)
+    print("Light turned OFF")
+
+while listening:
+    with sr.Microphone() as source:
+        recognizer = sr.Recognizer()
+        recognizer.adjust_for_ambient_noise(source)
+        recognizer.dynamic_energy_threshold = 3000
+
+        try:
+            print("Listening...")
+            audio = recognizer.listen(source, timeout=5.0)
+            response = recognizer.recognize_google(audio)
+            print(response)
+
+            if "tom" in response.lower():
+           
+                response_from_openai = get_response(response)
+                engine.setProperty('rate', 120)
+                engine.setProperty('volume', volume)
+                engine.setProperty('voice', 'greek')
+                engine.say(response_from_openai)
+                engine.runAndWait()
+            
+            elif "turn on the light" in response.lower():
+                turn_on_light()
+
+            elif "turn off the light" in response.lower():
+                turn_off_light()
+                
+            else:
+                print("Didn't recognize 'turn on the light' or 'turn off the light'.")
+
+        except sr.UnknownValueError:
+            print("Didn't recognize anything.")
+
+# Clean up GPIO on exit
+lgpio.gpiochip_close(h)
+print("GPIO cleanup completed")
+```
+-->
 
 
 # Second Milestone
@@ -75,7 +185,7 @@ In my starter project, I created a Calculator which can solve basic arithmetic e
 ## Challenges
 A challenge that ocurred during the making of this project was soldering the wrong part. This led me to spending significantly more time desoldering and resoldering. Accidentally soldering parts also caused the top row of the LED display to malfunction and stop displaying.
 
-## List of Materials
+## Bill of Materials
 Here is the list of materials I used for my starter project:
 
 | **Part** | **Note** | **Price**
