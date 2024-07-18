@@ -37,6 +37,37 @@ The biggest challenges at BSE included learning about wires and resistors for tu
 I learned about many key topics in this camp, including AI and electrical engineering. I learned about using OpenAI's developer platform to connect with ChatGPT in my project. I also learned about wires and resistors and how turn on a LED light using them. Moreover, I learned about PCBs, terminal lines, and basic CAD/3d printing techniques. In the future, I hope to dive deeper into the AI field and meaningfully apply its power in practical ways.
 
 
+# Second Milestone
+
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jt88gU1Xxh8?si=skl07EsoL68rqDc2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+- Technical details of what you've accomplished and how they contribute to the final goal
+- What has been surprising about the project so far
+- Previous challenges you faced that you overcame
+- What needs to be completed before your final milestone-->
+
+## Description
+In this milestone, my accomplishment is installing the dependencies required for the Raspberry Pi to convert speech to text as well as sending the prompt back to OpenAI's ChatGPT in a virtual enviornment. I also changed the default mode for audio devices by changing the card number in the default configuration. The next thing that needs to be completed before my final milestone is to code and execute the python script which will then activate the robot to listen for any prompts. Then it will send it back to ChatGPT and speak out loud a reponse.
+
+## Challenges
+Challenges that occurred was downloading the dependencies that involved "pip". This was because I did not install previous lines of code resulting in an error whenever I tried downloading those dependencies. Another challenge was making sure that I download the dependencies in the right folder, or the python script would not work later.
+
+# First Milestone
+
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KPPbzZ2AoVM?si=vwx5OK1yuR2AlYvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!---**For your first milestone, describe what your project is and how you plan to build it. You can include:
+- An explanation about the different components of your project and how they will all integrate together
+- Technical progress you've made so far
+- Challenges you're facing and solving in your future milestones
+- What your plan is to complete your project**-->
+
+
 ## Bill of Materials
 Here is the list of materials I used for my starter project:
 
@@ -138,36 +169,6 @@ print("GPIO cleanup completed")
 ```
 
 
-
-# Second Milestone
-
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jt88gU1Xxh8?si=skl07EsoL68rqDc2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<!---For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone-->
-
-## Description
-In this milestone, my accomplishment is installing the dependencies required for the Raspberry Pi to convert speech to text as well as sending the prompt back to OpenAI's ChatGPT in a virtual enviornment. I also changed the default mode for audio devices by changing the card number in the default configuration. The next thing that needs to be completed before my final milestone is to code and execute the python script which will then activate the robot to listen for any prompts. Then it will send it back to ChatGPT and speak out loud a reponse.
-
-## Challenges
-Challenges that occurred was downloading the dependencies that involved "pip". This was because I did not install previous lines of code resulting in an error whenever I tried downloading those dependencies. Another challenge was making sure that I download the dependencies in the right folder, or the python script would not work later.
-
-# First Milestone
-
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KPPbzZ2AoVM?si=vwx5OK1yuR2AlYvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-<!---**For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project**-->
 
 ## Description
 My project is the Voice Assistant with AI. The first step is to insert the SD card in my Raspberry Pi, which will serve as the basic storage system for my robot. I plan to build this through using OBS to connect my Raspberry Pi to my computer and then inserting my code there in the terminal. So far, I have successfully managed to do this and have been able to edit in the terminal. The next step is installing the dependencies and changing the default mode for audio devices so that the robot may recognize human voice and then convert it to text. Then it will send the prompt to ChatGPT and speak out the response.
