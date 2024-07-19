@@ -27,7 +27,7 @@ My project can naturally speak with humans and comprehend their requests by send
 - What you hope to learn in the future after everything you've learned at BSE-->
 
 ## Description
-In this milestone, my accomplishments was making the voice assistant work. Now, when I speak a prompt, the Raspberry Pi will recognize the voice and convert the speech to text. Then, it will send the prompt to OpenAI's ChatGPT. There, ChatGPT will generate a resposne and the Raspberry Pi will speak out the response for me. 
+In this milestone, my accomplishments were making the voice assistant work. Now, when I speak a prompt, the Raspberry Pi will recognize the voice and convert the speech to text. Then, it will send the prompt to OpenAI's ChatGPT. There, ChatGPT will generate a resposne and the Raspberry Pi will speak out the response for me. 
 
 
 ## Challenges
